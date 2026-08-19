@@ -238,12 +238,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "http://localhost:5174",
     "http://127.0.0.1:5174",
+    "https://budget-buddy-a-full-stack-personal-budget-planning-6xxfopnp9.vercel.app",
 ]
-
-# Temporary during deployment.
-# We will restrict this to the Vercel URL after the frontend
-# is deployed.
-CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
 
