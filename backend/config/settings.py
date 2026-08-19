@@ -239,6 +239,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5174",
     "http://127.0.0.1:5174",
     "https://budget-buddy-a-full-stack-personal-budget-planning-6xxfopnp9.vercel.app",
+    "https://budget-buddy-a-full-stack-personal-budget-planning-p5b2a3qzv.vercel.app",
+]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.vercel\.app$",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
